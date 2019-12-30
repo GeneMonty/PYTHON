@@ -25,11 +25,11 @@ def draw(xcor,ycor):
         turtle.goto(xcor,ycor)
         
         for i in range(80):
-                pencolor(clrs_2[ i % 6])
+                
                 for i in range(5):
                         width(5)
-                        fd(50)#(100+(i/2))
-                        rt(61)
+                        fd(xcor)#(100+(i/2))
+                        rt(ycor)#integer 61
                         pencolor(clrs_1[ i % 6])
                         # for i in range(5):
                         #         width(5)
@@ -46,6 +46,7 @@ def draw(xcor,ycor):
 
 sc.onclick(draw)
 sc.onkey(sc.bye, 'q')
+sc.onkey(sc.reset,'c')
 
 sc.listen()
 sc.mainloop()
