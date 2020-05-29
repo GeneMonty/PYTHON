@@ -1,0 +1,11 @@
+var data = [
+        { i : "John", r : "Hancock", d : 49.5 },
+        { i: "John", r : "Hancock", d : 95.0 }
+        ];
+
+
+
+//         var data = [
+// { fname : "John", lname : "Hancock", value : 49.5 },
+// { fname : "John", lname : "Hancock", value : 95.0 }
+// ];

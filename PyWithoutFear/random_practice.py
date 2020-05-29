@@ -38,14 +38,15 @@
 # a= 5/3
 # format(a,'2f')
 # print (format(a,'.2f'))
-
+"""
+lol string together
+"""
 us_pop = 331002651
-i = 406806
-r = 22775
-d = 13853
-d_growth_rate= 0.18
-r_growth_rate= 0.17
-
+i = 1227430
+r = 189910
+d = 73095
+d_growth_rate= 0.03
+r_growth_rate= 0.05
 current_pool = r + d
 #ratios
 fatality_rate = d / i
@@ -83,9 +84,9 @@ print(
         'Pool Deaths: {:,.0f}'.format(potential_deaths_pool),
         'US Population Deaths: {:,.0f}'.format(us_pop_potential_deaths),
         '',
-        'PROJECTED',
-        'Deaths Tomorrow [Total]: {:,.0f}'.format(p_death-d),
-        'Recoveries Tomorrow [Total]: {:,.0f}'.format(p_heal-r),
+        'PROJECTED May/6',
+        'New Deaths Tomorrow [Total]: {:,.0f}'.format(p_death-d),
+        'New Recoveries Tomorrow [Total]: {:,.0f}'.format(p_heal-r),
         sep='\n')
 
 
