@@ -1,6 +1,6 @@
 from turtle import *
 
-import shapes
+import shapes as sh
 import turtle
 import random
 
@@ -201,7 +201,7 @@ def octaSpiral_0(xcor,ycor):
                 fd(1+i)
                 # rt(61)
 
-sc.onclick(workbench_0)
+sc.onclick(octaSpiral_0)
 sc.onkey(sc.bye, 'q')
 sc.onkey(sc.reset,'c')
 
